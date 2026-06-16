@@ -1,3 +1,4 @@
+// Dosya ismi: JoinCommand.java
 package com.prisonlife.commands;
 
 import com.prisonlife.ItemBuilder;
@@ -17,15 +18,11 @@ public class JoinCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
-
-        // Örnek olarak bir item ver
         ItemStack item = new ItemBuilder(Material.DIAMOND_SWORD)
                 .setName("§aKatılım Kılıcı")
                 .build();
 
         player.getInventory().addItem(item);
-        player.sendMessage("§aBaşarıyla katıldın!");
-
         return true;
     }
 }
