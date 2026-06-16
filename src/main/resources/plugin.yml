@@ -1,8 +1,8 @@
 name: PrisonLife
-version: 1.0.0
-main: com.senoxygen.prisonlife.PrisonLife
-api-version: '1.21'
+version: 1.0
+main: com.prisonlife.PrisonLifePlugin
+api-version: 1.21
 commands:
-  pb:
-    description: Prison Life'e katılmak için kullanılır.
-    usage: /pb join
+  join:
+    description: PrisonLife'e katıl
+    usage: /join
